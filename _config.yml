@@ -1,0 +1,243 @@
+# Site
+repository: anyagalkina/cv
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Anna Galkina
+title: Front-end developer
+phone: +7(962)9114695
+email: anna.blackbird1@gmail.com
+website: https://anyagalkina.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: anyagalkina
+instagram_username: anyablackbird
+#linkedin_username: anna-galkina-28016088
+linkedin_username: anna-galkina
+
+
+# Additional icon links
+additional_links:
+  - title: portfolio
+    icon: fab fa-code
+    url: https://anyagalkina.github.io/portfolio
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Summary
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Anna and I'm a front-end developer (React/Redux stack). Also very interested in React native.
+  I'm result oriented, well-organized and responsible, team-player. Highly ambitious and extremely motivated.
+
+content:
+  - title: Technical skills
+    layout: text
+    content: |
+      **Programming Languages**:  TypeScript, JavaScript
+      **JavaScript Libraries and Frameworks**: React, React Native, Angular
+      **Store Management**: Redux, Redux-toolkit
+      **REST API**: Axios, Postman, Swagger, base of back-end knowladge(express)
+      **Styles and Design**: CSS Preprocessors (SASS), CSS modules, Responsive web design, MUI, Antd, Figma
+      **Tests**: Jest uni tests, Storybook, Snapshot, Test Driven Development (TDD)
+      **Experience using version control git**
+      **Containers**: Docker
+      **Atlassian stack**: Jira
+
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Freelance
+        sub_title: Front-end
+        caption: Aug 2022- Nov2022
+        description: | # this will include new lines to allow paragraphs
+          * Developed of authorization features: registration, login, sign up and password recovery.
+          * Developed reusable components.
+          * Write uni-tests.
+          * Debug and fix programming bugs.
+          * Tracking tasks in jira.
+          * Work with git.
+
+      - layout: left
+        title: Avon
+        sub_title: Brand manager Make-up category
+        caption: February 2015 - March 2018
+        description: | # this will include new lines to allow paragraphs
+          * Brand annual strategy development. Developing and monitoring brand budget. Product pricing strategy.
+          * Evaluation annual brand and product sales potential, creating annual sales flow. Identification of product gaps and incremental opportunities for growth;
+          * Launch of new brand preparation and execution: localization of global idea; identification of consumer insights, needs and marketing trends; development of brand position and communication;
+          * Full leadership of launch and leverage with 360 o activation with digital and field support;
+          * Effective product line up management (500 SKU), product portfolio optimization;
+          * Day-to-day communication with external and internal business partners;
+            **Business achievements**:
+          * Developed Strategy for nail segment.  The highest sales in 5 years horizon.
+          * Developed from scratch 1st Face Shade Selection event to overcome key purchase barrier. Grew +26% in Sales.
+          * Actively contributed to new millenials brand launch, including:1st time in Avon launch Brochure digitalization, maximizing festival occasion through leading festival mark Event, including integration to the biggest millenials festival Picnic Afisha. Led Mark web site development, the only one fully branded page on my.avon.ru strongly in-line with brand.Developed new different format of recruitment tools for sales department.      - layout: left
+      - layout: left
+          title: Avon
+          sub_title: Junior brand manager Skin Care category
+          caption: July 2013 – to February 2015
+          description: | # this will include new lines to allow paragraphs
+            * Category Value segment management
+            * Launch of new product segment leading: consumer research communication, BTL and ATL activities
+            * Market analyzes
+            * Skin Care category budgeting
+          - layout: left
+            title: Procter & Gamble
+            sub_title: Specialist in Marketing Strategy and Planning
+            caption: October 2010 – July 2013
+            description: | # this will include new lines to allow paragraphs
+              * Preparation of reports and analysis of all relevant Marketing information.
+              * Participation in implementation of marketing strategies.
+              * Organization BTL Events. Design, development and production of the POS materials and souvenirs for Hair Care and Skin Care brands.
+              * Making a tender between agencies.
+              * Logistic organization and documentation support
+          - layout: left
+            title: Work and Travel (USA)
+            sub_title: Participation in International Exchange Program - Work & Travel USA
+            caption: June 2008 – August 2008
+
+
+  - title: Projects
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Todo List
+        link: https://AnyaGalkina.github.io/todolist-app
+        link_text: Todo List Website
+        additional_links:
+          - title: Github page for project
+            icon: fab fa-github
+            url: https://github.com/AnyaGalkina/todolist-app
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          Todo List app with ability to login, create different todo lists with tasks and its descriptions, edit content and track status.
+          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik, Jest.
+      - layout: top-middle
+        title: Finance Tracker
+        link: https://AnyaGalkina.github.io/finance_tracker
+        additional_links:
+          - title: Github page for project
+            icon: fab fa-github
+            url: https://github.com/anyagalkina/finance_tracker
+             url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Developed from scratch
+        description: | # this will include new lines to allow paragraphs
+          Budget app that let you track expenditures and income. It's also give an opportunity to set goals and gradually save money to achieve the targets.
+          I started this pet project as a way if learning <mark>React</mark>. I have learned many skills through this and been I'm very proud of having this in my portfolio. 
+          As I totally developed this one from scratch.
+          **Technical stack**: TS, React, Redux, React-redux, React router dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid.
+      - layout: top-middle
+        title: Learning Cards
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: https://anyagalkina.github.io/cards/
+            icon: fab fa-github
+            url: https://github.com/AnyaGalkina/cards
+        quote: >
+          Leading team work project
+        description: | # this will include new lines to allow paragraphs
+          Learning cards app with ability to create your own profile account. Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs created by other users.
+          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik, Jest.
+      - layout: top-middle
+        title: Social Network
+        link: https://anyagalkina.github.io/samurai-way
+        # link_text: Project Website
+        additional_links:
+          - title: Github page for project
+            icon: fab fa-github
+            url: https://github.com/AnyaGalkina/samurai-way
+        quote: >
+          App was developed with class container components and refactored with functional components and hooks
+        description: | # this will include new lines to allow paragraphs
+          Social Network for front-end developers: Login and update profile info. Follow real users. Easy to chat thanks to WebSocket connection. Listen music at music library. Read TechCrunch news and share them with one click.
+          **Technical stack**: REST API, Axios, TS, React, Redux, React-redux, React router dom v5, Antd, Formik, Jest, Uuid
+      - layout: top-middle
+        title: Telegram Bot
+        link: https://t.me/Pole_Training_Adviser_bot
+        # link_text: Project Website
+        additional_links:
+          - title: Github page for project
+            icon: fab fa-github
+            url: https://github.com/AnyaGalkina/Pole-tg-bot
+        description: | # this will include new lines to allow paragraphs
+          Training adviser for pole sportsmen which help them to choose exercises for different levels.
+          **Technical stack** Javascript, Telegraf, Node-telegram-bot-api
+
+  - title: Languages
+    layout: text
+    content: |
+      **English**: Upper intermediate
+      **Spanish**: Basic
+      **Russian**: Native
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: It-Incubator
+        caption: 2022
+        sub_title: React/Angular front-end developer. React Native developer.
+      - layout: left
+        title: The App Brewery
+        caption: 2021
+        sub_title: Web Development
+      - layout: left
+        title: Moscow State Linguistic University.
+        caption: 2005 - 2011
+        sub_title: Economy. Masters degree with honors.
+  #        quote: >
+  #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  #        description: | # this will include new lines to allow paragraphs
+  #          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+  #
+  #          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  #
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in front end development, some of my other interests and hobbies are:
+      Sport, Diving, Snowboarding
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#
+#      Look at this cool image
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
