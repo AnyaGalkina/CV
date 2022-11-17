@@ -10,10 +10,10 @@ name: Anna Galkina
 title: Front-end developer
 phone: +7(962)911-46-95
 email: anna.blackbird1@gmail.com
+#tg: anna_blackbird
 #git: https://github.com/AnyaGalkina/
 #in: https://www.linkedin.com/in/anna-galkina-28016088/
 #website: https://anyagalkina.github.io/portfolio
-#tg: https://t.me/anna_blackbird
 #cw: https://www.codewars.com/users/AnyaGalkina
 
 # Dark Mode (true/false/never)
@@ -35,9 +35,9 @@ additional_links:
   - title: codewars
     icon: fa fa-code
     url: https://www.codewars.com/users/AnyaGalkina
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+#  - title: another link
+#    icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#    url: Link url (eg. https://google.com)
 
 
 # Google Analytics and Tag Manager
@@ -50,12 +50,12 @@ additional_links:
 about_title: Summary
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Anna and I'm an experienced front-end developer (React/Redux stack) since Oct 2021. Also, I'm very interested in React Native.
-  I'm result-oriented, well-organized and responsible team-player. Highly ambitious and extremely motivated.
+  Hi, my name is Anna and I'm an experienced front-end developer (React/Redux stack). Also, I'm very interested in React Native.
+  I'm a result-oriented, well-organized and responsible team player, highly ambitious, and extremely motivated.
   I'm so passionate about front-end development. 
   
-  Before entry into IT, I had a huge working experience at worldwide known international companies such as Procter & Gamble and Avon. 
-  Growing from department assistance to brand manager worked in marketing including day-to-day communication with external and internal business partners in English.
+  Before entering into IT, I had a huge working experience at worldwide known international companies such as Procter & Gamble and Avon. 
+  Growing from department assistant to brand manager worked in marketing including day-to-day communication with external and internal business partners in English.
   I developed and implemented annual brand and pricing strategies identifying product gaps and incremental opportunities for growth.
   Led launch and leverage of new brands and products with 360 activation with digital and field support, based on consumer insights, needs, and marketing trends. 
 
@@ -67,15 +67,15 @@ content:
       
       **SPA libraries and frameworks**: React, basic React Native
       
-      **Store management**: Redux, Redux-toolkit, React-Redux, Redux-Thunks/Redux-Saga
+      **Store management**: Redux, Redux-toolkit, React-Redux, Redux-Thunks
       
-      **Client-Server communication**: REST API, Axios, WebSocket, Swagger, Express Node.js (basic back-end skills)
+      **Client-Server communication**: REST API, Axios, WebSocket, Swagger
       
       **Styles and Design**: CSS Preprocessors (SASS), CSS modules, Responsive web design, MUI, Ant Design, Figma
       
       **Routing**: React-Router-Dom v5 and v6
       
-      **Additional libraries**: Howler.js, react-chartjs-2
+      **Additional libraries**: Formik, Yup, Howler.js, react-chartjs-2
       
       **Tests**:  Test Driven Development (TDD), Postman, Jest Unit Tests, Storybook, Snapshot, ReduxDev Tools 
       
@@ -87,7 +87,7 @@ content:
       
       **Atlassian stack**: Jira, Confluence
 
-  - title: Projects
+  - title: Projects (2021 - Present)
 
     layout: list # Type of content section (list/text)
     content:
@@ -103,8 +103,8 @@ content:
 #        quote: >
 #          Oct 2021-till now
         description: | # this will include new lines to allow paragraphs
-          Learning cards app with ability to create your own profile account. Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs created by other users.
-          Participated in teamwork project Developed authentication features: registration, login, password recovery. Developed reusable components, modals. Developed menu filters and search logic. Wrote Unit Tests. Debug and fix programming bugs.
+          Learning cards app with the ability to create your own profile account. Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs created by other users.
+          I've participated in a teamwork project. Developed authentication features: registration, log in and password recovery. Developed reusable components, modals. Developed menu filters and search logic. Wrote Unit Tests. Debug and fix programming bugs.
                                          
           **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest.
 
@@ -118,25 +118,14 @@ content:
           icon: fab fa-github
           url: https://github.com/AnyaGalkina/todolist-app
         description: |
-            To-Do List is an web app with ability to login and create different To-Do lists with tasks and its descriptions, edit content and track tasks status.
+           To-Do List is a mobile responsive web app with the ability to login and create different To-Do lists with tasks and their descriptions, edit content, and track tasks' status.
             
             **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest.
-#
-#      #      - layout: top-middle
-##        title: Todo List
-##        link: https://AnyaGalkina.github.io/todolist-app
-##        link_text: Todo List Website
-##        additional_links:
-##          - title: Github page for project
-##            icon: fab fa-github
-##            url: https://github.com/AnyaGalkina/todolist-app
-##          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-##          #   icon: fab fa-github
-##          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-##        description: | # this will include new lines to allow paragraphs
+
       - layout: left
         title: Finance Tracker
-        sub_title: self-educational project
+#        sub_title: self-educational project
+        sub_title: pet project
         link: https://AnyaGalkina.github.io/finance_tracker
         link_text: Finance Tracker Website
         additional_links:
@@ -146,24 +135,10 @@ content:
 #        quote: >
 #          Developed from scratch
         description: | # this will include new lines to allow paragraphs
-          Developed from scratch. Budget SPA that let you track expenditures and income with data saving in Local Storage. It's also give an opportunity to set goals and gradually save money to achieve the targets.
+          Developed from scratch. Mobile responsive budget SPA that let you track expenditures and income with data saving in Local Storage. It also gives an opportunity to set goals and gradually save money to achieve the targets.
           
           **Technical stack**: TS, React, Redux, React-redux, React-router-dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid.
-#      - layout: top-middle
-#        title: Learning Cards
-#        link: https://anyagalkina.github.io/cards/
-#        # link_text: Project Website
-#        additional_links:
-#          - title: https://anyagalkina.github.io/cards/
-#            icon: fab fa-github
-#            url: https://github.com/anyagalkina/cards
-#        quote: >
-#          Leading team work project
-#        description: | # this will include new lines to allow paragraphs
-#          Learning cards app with ability to create your own profile account. Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs created by other users.
-#
-#          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik, Jest.
-#
+
       - layout: left
         title: Social Network
         sub_title: educational project, developed with personal features
@@ -173,12 +148,26 @@ content:
           - title: Github page for project
             icon: fab fa-github
             url: https://github.com/AnyaGalkina/samurai-way
-#        quote: >
-#          App was developed with class container components and refactored with functional components and hooks
+          #        quote: >
+          #          App was developed with class container components and refactored with functional components and hooks
         description: | # this will include new lines to allow paragraphs
-          SPA was developed with class container components and later refactored with functional components and hooks. Social Network for front-end developers: Login and update profile info. Follow real users. Easy to chat thanks to WebSocket connection. Listen music at music library. Read TechCrunch news and share them with one click.
-          
+          Mobile responsive SPA was developed with class container components and later refactored with functional components and hooks. Social Network for front-end developers: Log in and update profile info. Follow real users. Easy to chat thanks to WebSocket connection. Listen to music at the music library. Read TechCrunch news and share them with one click.
+            
           **Technical stack**: REST API, Axios, TS, React, Redux, React-redux, React-router-dom v5, WebSocket, Antd, Formik, Howler.js, Jest, Uuid
+
+      - layout: left
+        title: Cakes and sweets shop
+        sub_title:
+        link: https://anyagalkina.github.io/shop
+        link_text: Cakes and sweets shop Website
+        additional_links:
+          - title: Github page for project
+            icon: fab fa-github
+            url: https://github.com/AnyaGalkina/shop
+        description: | # this will include new lines to allow paragraphs
+          Mobile responsive App. Online shop where you can order cakes and other sweets.
+          
+          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, MUI, Formik, Yup, Jest Snapshot, Storybook, ESlint 
 
       - layout: left
         title: Telegram Bot
@@ -190,7 +179,7 @@ content:
             icon: fab fa-github
             url: https://github.com/AnyaGalkina/Pole-tg-bot
         description: | # this will include new lines to allow paragraphs
-          Training adviser for pole sportsmen which help them to choose exercises for different levels.
+          Training adviser for pole sportsmen which helps them to choose exercises for different levels.
 
           **Technical stack**: Javascript, Telegraf, Node-telegram-bot-api
 
@@ -268,7 +257,7 @@ content:
     content:
       - layout: left
         sub_title: It-Incubator
-        caption: 2022
+        caption: 2021 - 2022
         description: |
           Front-End Developer with teamwork experience (React/Redux/TypeScript)
           
@@ -298,7 +287,6 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Some of my other interests and hobbies are: Sport, Diving, Snowboarding.
-#      Also I like to improve your development skills by training codewars https://www.codewars.com/users/AnyaGalkina
 
 # Footer
 footer_show_references: false
