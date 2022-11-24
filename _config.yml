@@ -45,7 +45,7 @@ about_content: | # this will include new lines to allow paragraphs
   An experienced Front-End Developer (React/Redux stack) with an every day learning habit.
   
   Capable to write maintainable, scalable and readable code utilizing cutting-edge tools and frameworks, cover it with tests, and create multi-stage builds using Docker.
-  Able to implement SPA with responsive design from concept through deployment, as well as, maintain, update, and improve existing company websites.
+  Able to implement SPA with responsive design from concept through deployment as well as maintain, update, and improve existing company websites.
   I work effectively in a team being familiar with Git flow approaches, weekly sprints and in the same time I'm able to complete tasks independently.
   Usage of official documentation and google how to resolve an issue is not a problem for me.
   
@@ -185,7 +185,7 @@ content:
         quote: >
           Online shop with basic functionality
         description: | # this will include new lines to allow paragraphs
-          - Developed front-end and back-end parts with REST API communication 
+          - Developed front-end and back-end parts with REST API communication
           - Developed Cart page with ability to edit products list and make order 
           - Created Products page
           - Implemented back-end errors handling
