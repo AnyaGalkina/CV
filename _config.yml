@@ -151,7 +151,7 @@ content:
 
       - layout: left
         title: Social Network
-        sub_title: Educational project, spiced with my own features
+        sub_title: Self-educational project, spiced up with my own features
         link: https://anyagalkina.github.io/samurai-way
         link_text: Social Network Website Link
         additional_links:
@@ -162,9 +162,10 @@ content:
           SPA for communication, following users, customizing profile
         description: | # this will include new lines to allow paragraphs
           - Developed such features as: 
+          - Developed features with client-server communication: 
               - Log in page with validation 
               - Profile page with ability to update data on server
-              - Chat service backed by WebSocket
+              - Chat service backed by WebSocket connections
               - User page with ability to follow/unfollow users, search, pagination and filters, implemented client-server communication
               - Music library with Howler.js framework
               - News page with pagination and share functionality  
@@ -174,7 +175,7 @@ content:
 
       - layout: left
         title: Online Shop
-        sub_title: Educational project
+        sub_title: Self-educational project
         link: https://anyagalkina.github.io/shop
         link_text: Cakes and sweets shop Website
         additional_links:
@@ -184,13 +185,14 @@ content:
         quote: >
           Online shop with basic functionality
         description: | # this will include new lines to allow paragraphs
-          - Developed Cart page with ability to edit products list and make order backed by Axios (http request)
-          - Developed Products page
+          - Developed front-end and back-end parts with REST API communication 
+          - Developed Cart page with ability to edit products list and make order 
+          - Created Products page
           - Implemented back-end errors handling
-          - Built and packed the app with Docker
+          - Packed the app with Docker using multi-stage build 
           - Designed eye-catching and mobile responsive web app
           
-          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, MUI, Formik, Yup, Jest Snapshot, Storybook, ESlint 
+          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, MUI, Formik, Yup, Express, Node.js, Jest Snapshot, Storybook, ESlint 
 
       - layout: left
         title: Telegram Bot
@@ -206,6 +208,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Implemented handling of client messages
           - Developed logic how-to range exercises by different levels providing their uniqueness during specific period 
+          - Built and packed the app with Docker
 
           **Technical stack**: Javascript, Telegraf, Node-telegram-bot-api
 
@@ -227,7 +230,6 @@ content:
         description: |
           Front-End Developer with teamwork experience (React/Redux/TypeScript)
           
-          Offset: basic React Native
       - layout: left
         sub_title: The App Brewery
         caption: 2021
