@@ -204,8 +204,8 @@ content:
         quote: >
           Bot for pole sportsmen which helps them to choose different levels exercises for training
         description: | # this will include new lines to allow paragraphs
-           - Implemented handling of client messages
-           - Developed logic how-to range exercises by different levels providing their uniqueness during specific period 
+          - Implemented handling of client messages
+          - Developed logic how-to range exercises by different levels providing their uniqueness during specific period 
 
           **Technical stack**: Javascript, Telegraf, Node-telegram-bot-api
 
