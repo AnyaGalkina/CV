@@ -7,14 +7,9 @@ version: 2
 
 # Personal info
 name: Anna Galkina
-title: Front-end developer
+title: Front-End Developer
 phone: +7(962)911-46-95
 email: anna.blackbird1@gmail.com
-#tg: anna_blackbird
-#git: https://github.com/AnyaGalkina/
-#in: https://www.linkedin.com/in/anna-galkina-28016088/
-#website: https://anyagalkina.github.io/portfolio
-#cw: https://www.codewars.com/users/AnyaGalkina
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -35,9 +30,6 @@ additional_links:
   - title: codewars
     icon: fa fa-code
     url: https://www.codewars.com/users/AnyaGalkina
-#  - title: another link
-#    icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#    url: Link url (eg. https://google.com)
 
 
 # Google Analytics and Tag Manager
@@ -50,14 +42,15 @@ additional_links:
 about_title: Summary
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Anna and I'm an experienced front-end developer (React/Redux stack). Also, I'm very interested in React Native.
-  I'm a result-oriented, well-organized and responsible team player, highly ambitious, and extremely motivated.
-  I'm so passionate about front-end development. 
+  An experienced Front-End Developer (React/Redux stack) with an every day learning habit.
   
-  Before entering into IT, I had a huge working experience at worldwide known international companies such as Procter & Gamble and Avon. 
-  Growing from department assistant to brand manager worked in marketing including day-to-day communication with external and internal business partners in English.
-  I developed and implemented annual brand and pricing strategies identifying product gaps and incremental opportunities for growth.
-  Led launch and leverage of new brands and products with 360 activation with digital and field support, based on consumer insights, needs, and marketing trends. 
+  Capable to write maintainable, scalable and readable code utilizing cutting-edge tools and frameworks, cover it with tests, and create multi-stage builds using Docker.
+  Able to implement SPA with responsive design from concept through deployment, as well as, maintain, update, and improve existing company websites.
+  I work effectively in a team being familiar with Git flow approaches, weekly sprints and in the same time I'm able to complete tasks independently.
+  Usage of official documentation and google how to resolve an issue is not a problem for me.
+  
+  I look forward to sharpening my skills with my next team!
+
 
 content:
   - title: Technical skills
@@ -65,7 +58,7 @@ content:
     content: |
       **Programming Languages**: TypeScript, JavaScript (including modern approaches async/await, ES6)
       
-      **SPA libraries and frameworks**: React, basic React Native
+      **SPA libraries and frameworks**: React, React Native
       
       **Store management**: Redux, Redux-toolkit, React-Redux, Redux-Thunks
       
@@ -75,15 +68,15 @@ content:
       
       **Routing**: React-Router-Dom v5 and v6
       
-      **Additional libraries**: Formik, Yup, Howler.js, react-chartjs-2
+      **Additional libraries**: Formik, Yup, Howler.js, React-chartjs-2
       
       **Tests**:  Test Driven Development (TDD), Postman, Jest Unit Tests, Storybook, Snapshot, ReduxDev Tools 
       
-      **Flow**: Git, GitHub, GitHub pages
+      **Git**: GitLab, GitHub, GitHub Pages
       
       **Linters**: ESLint, Prettier
       
-      **Containers**: Docker
+      **Containers**: Docker, Docker Compose
       
       **Atlassian stack**: Jira, Confluence
 
@@ -92,155 +85,129 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Learning cards
-        sub_title: commercial project
+        title: Learning Cards
+        sub_title: Teamwork project
         link: https://anyagalkina.github.io/cards/
         link_text: Learning cards Website
         additional_links:
           - title: Github page for project
             icon: fab fa-github
             url: https://github.com/anyagalkina/cards
-#        quote: >
-#          Oct 2021-till now
+        quote: >
+            App with the ability to create packs with cards to learn in question/answer format and monitor your study progress
         description: | # this will include new lines to allow paragraphs
-          Learning cards app with the ability to create your own profile account. Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs created by other users.
-          I've participated in a teamwork project. Developed authentication features: registration, log in and password recovery. Developed reusable components, modals. Developed menu filters and search logic. Wrote Unit Tests. Debug and fix programming bugs.
+          - Built registration and password recovery features with validation
+          - Developed filters and search logic, including server request optimization to get data (packs and cards) 
+          - Wrote utils function for forms validation and server errors handling
+          - Created header with app menu and Profile page with ability to change avatar image
+          - Developed logic to show cards from pack in learning mode (smart random with non-recurring cards)
+          - Contributed to web layout and design based on Figma reference
+          
                                          
-          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest.
+          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest
 
       - layout: left
         title: To-Do List
-        sub_title: educational project
+        sub_title: Educational project
         link: https://AnyaGalkina.github.io/todolist-app
         link_text: To-Do List Website
         additional_links:
         - title: Github page for project
           icon: fab fa-github
           url: https://github.com/AnyaGalkina/todolist-app
+        quote: >
+          To-do list app with basic functionality
         description: |
-           To-Do List is a mobile responsive web app with the ability to login and create different To-Do lists with tasks and their descriptions, edit content, and track tasks' status.
-            
-            **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest.
+          - Built mobile responsive web app, implemented such features as create/edit/delete to-do lists, tasks and their descriptions, filter tasks by status
+          - Developed Log in page with validation
+          - Implemented update of all data on server through Axios requests, errors handling
+          - Covered code with unit test for reducers and storybook tests
+          - Added design with MUI theme config changes and components
+
+          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest
 
       - layout: left
         title: Finance Tracker
-#        sub_title: self-educational project
-        sub_title: pet project
+        sub_title: Pet project
         link: https://AnyaGalkina.github.io/finance_tracker
         link_text: Finance Tracker Website
         additional_links:
           - title: Github page for project
             icon: fab fa-github
             url: https://github.com/anyagalkina/finance_tracker
-#        quote: >
-#          Developed from scratch
-        description: | # this will include new lines to allow paragraphs
-          Developed from scratch. Mobile responsive budget SPA that let you track expenditures and income with data saving in Local Storage. It also gives an opportunity to set goals and gradually save money to achieve the targets.
+        quote: >
+         App lets you track your expenditures and incomes, set financial goals and gradually save money to achieve the targets
+        description: | # this will include new lines to allow paragraphs          
+          - Built whole app from scratch, including state structure
+          - Developed reusable components for Expenditures and Incomes pages: input with icons' list with CRUD operations and charts
+          - Optimized rerender of components with help of useRef and useCallback hooks
+          - Developed Savings page with modal window
+          - Implemented saving data in Local Storage
+          - Implemented mobile responsive layouts with css flex approach and designed app with MUI
+          - Built and packed the app with Docker
+          - Covered reducers with tests
           
-          **Technical stack**: TS, React, Redux, React-redux, React-router-dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid.
+          **Technical stack**: TS, React, Redux, React-redux, React-router-dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid
 
       - layout: left
         title: Social Network
-        sub_title: educational project, developed with personal features
+        sub_title: Educational project, spiced with my own features
         link: https://anyagalkina.github.io/samurai-way
         link_text: Social Network Website Link
         additional_links:
           - title: Github page for project
             icon: fab fa-github
             url: https://github.com/AnyaGalkina/samurai-way
-          #        quote: >
-          #          App was developed with class container components and refactored with functional components and hooks
+        quote: >
+          SPA for communication, following users, customizing profile
         description: | # this will include new lines to allow paragraphs
-          Mobile responsive SPA was developed with class container components and later refactored with functional components and hooks. Social Network for front-end developers: Log in and update profile info. Follow real users. Easy to chat thanks to WebSocket connection. Listen to music at the music library. Read TechCrunch news and share them with one click.
-            
+          - Developed such features as: 
+              - Log in page with validation 
+              - Profile page with ability to update data on server
+              - Chat service backed by WebSocket
+              - User page with ability to follow/unfollow users, search, pagination and filters, implemented client-server communication
+              - Music library with Howler.js framework
+              - News page with pagination and share functionality  
+          - Created mobile responsive layout and designed app with Ant Design framework
+         
           **Technical stack**: REST API, Axios, TS, React, Redux, React-redux, React-router-dom v5, WebSocket, Antd, Formik, Howler.js, Jest, Uuid
 
       - layout: left
-        title: Cakes and sweets shop
-        sub_title:
+        title: Online Shop
+        sub_title: Educational project
         link: https://anyagalkina.github.io/shop
         link_text: Cakes and sweets shop Website
         additional_links:
           - title: Github page for project
             icon: fab fa-github
             url: https://github.com/AnyaGalkina/shop
+        quote: >
+          Online shop with basic functionality
         description: | # this will include new lines to allow paragraphs
-          Mobile responsive App. Online shop where you can order cakes and other sweets.
+          - Developed Cart page with ability to edit products list and make order backed by Axios (http request)
+          - Developed Products page
+          - Implemented back-end errors handling
+          - Built and packed the app with Docker
+          - Designed eye-catching and mobile responsive web app
           
           **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, MUI, Formik, Yup, Jest Snapshot, Storybook, ESlint 
 
       - layout: left
         title: Telegram Bot
-        sub_title: commercial project
+        sub_title: Commercial project
         link: https://t.me/Pole_Training_Adviser_bot
         link_text: Telegram Bot Link
         additional_links:
           - title: Github page for project
             icon: fab fa-github
             url: https://github.com/AnyaGalkina/Pole-tg-bot
+        quote: >
+          Bot for pole sportsmen which helps them to choose different levels exercises for training
         description: | # this will include new lines to allow paragraphs
-          Training adviser for pole sportsmen which helps them to choose exercises for different levels.
+           - Implemented handling of client messages
+           - Developed logic how-to range exercises by different levels providing their uniqueness during specific period 
 
           **Technical stack**: Javascript, Telegraf, Node-telegram-bot-api
-
-
-#  - title: Experience
-#    layout: list
-#    content:
-#      - layout: left
-#        title: Start-up project, Part time
-#        sub_title: Front-end
-#        caption: Aug 2022- Nov2022
-#        description: | # this will include new lines to allow paragraphs
-#          * Developed authentication features: registration, login, and password recovery
-#          * Developed reusable components
-#          * Wrote Unit Tests
-#          * Debug and fix programming bugs
-#          * Tracked tasks in Jira
-#          * Worked with git
-#
-#      - layout: left
-#        title: Avon
-#        sub_title: Brand manager Make-up category
-#        caption: February 2015 - March 2018
-#        description: | # this will include new lines to allow paragraphs
-#          * Brand annual strategy development. Developing and monitoring brand budget. Product pricing strategy
-#          * Evaluation annual brand and product sales potential, creating annual sales flow. Identification of product gaps and incremental opportunities for growth
-#          * Launch of new brand preparation and execution: localization of global idea. Identification of consumer insights, needs and marketing trends; development of brand position and communication
-#          * Full leadership of launch and leverage with 360 o activation with digital and field support
-#          * Effective product line up management (500 SKU), product portfolio optimization
-#          * Day-to-day communication with external and internal business partners
-#
-#          * **Business achievements**:
-#          * Developed Strategy for nail segment.  The highest sales in 5 years horizon
-#          * Developed from scratch 1st Face Shade Selection event to overcome key purchase barrier. Grew +26% in Sales
-#          * Actively contributed to new millenials brand launch, including:1st time in Avon launch Brochure digitalization, maximizing festival occasion through leading festival mark Event, including integration to the biggest millenials festival Picnic Afisha. Led Mark web site development, the only one fully branded page on my.avon.ru strongly in-line with brand.Developed new different format of recruitment tools for sales department      - layout: left
-#      - layout: left
-#        title: Avon
-#        sub_title: Junior brand manager Skin Care category
-#        caption: July 2013 – to February 2015
-#        description: | # this will include new lines to allow paragraphs
-#          * Category Value segment management
-#          * Launch of new product segment leading: consumer research communication, BTL and ATL activities
-#          * Market analyzes
-#          * Skin Care category budgeting
-#      - layout: left
-#        title: Procter & Gamble
-#        sub_title: Specialist in Marketing Strategy and Planning
-#        caption: October 2010 – July 2013
-#        description: | # this will include new lines to allow paragraphs
-#          * Preparation of reports and analysis of all relevant Marketing information
-#          * Participation in implementation of marketing strategies
-#          * Organization BTL Events. Design, development and production of the POS materials and souvenirs for Hair Care and Skin Care brands
-#          * Making a tender between agencies
-#          * Logistic organization and documentation support
-#      - layout: left
-#        title: Work and Travel (USA)
-#        #        sub_title: Participation in International Exchange Program - Work & Travel USA
-#        caption: June 2008 – August 2008
-#        description: |
-#          Participation in International Exchange Program - Work & Travel USA
-
 
 
   - title: Languages
@@ -250,7 +217,6 @@ content:
             
       **Russian**: Native
 
-#            **Spanish**: Basic
 
   - title: Education # Title for the section
     layout: list
@@ -262,7 +228,6 @@ content:
           Front-End Developer with teamwork experience (React/Redux/TypeScript)
           
           Offset: basic React Native
-#          Angular,
       - layout: left
         sub_title: The App Brewery
         caption: 2021
@@ -275,18 +240,17 @@ content:
           Master of Science in Applied Economics
           
           Masters degree with honors
-  #        quote: >
-  #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #        description: | # this will include new lines to allow paragraphs
-  #          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-  #
-  #          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-  #
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Some of my other interests and hobbies are: Sport, Diving, Snowboarding.
+    content: | # this will include new lines to allow paragraphs      
+      Before entering into IT, I had an extensive working experience at worldwide known international companies such as Procter & Gamble and Avon.
+      Grew from department assistant to brand manager, worked in marketing including day-to-day communication with external and internal business partners in English.
+      I developed and implemented annual brand and pricing strategies identifying product gaps and incremental opportunities for growth.
+      Led launch and leverage of new brands and products with 360 activation with digital and field support, based on consumer insights, needs, and marketing trends.
+
+      Teamwork, thoughtful communication and responsibility are the primary pillars that I aim to bring to my new sphere.
+      
 
 # Footer
 footer_show_references: false
