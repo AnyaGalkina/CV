@@ -42,11 +42,11 @@ additional_links:
 about_title: Summary
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  An experienced Front-End Developer (React/Redux stack) with an every day learning habit.
+  An experienced Front-End Developer (React/Redux stack) with a daily learning habit.
   
   Capable to write maintainable, scalable and readable code utilizing cutting-edge tools and frameworks, cover it with tests, and create multi-stage builds using Docker.
   Able to implement SPA with responsive design from concept through deployment as well as maintain, update, and improve existing company websites.
-  I work effectively in a team being familiar with Git flow approaches, weekly sprints and in the same time I'm able to complete tasks independently.
+  I work effectively in a team being familiar with Git flow approaches, weekly sprints and in the same time completing tasks independently when needed.
   Usage of official documentation and google how to resolve an issue is not a problem for me.
   
   I look forward to sharpening my skills with my next team!
@@ -68,7 +68,7 @@ content:
       
       **Routing**: React-Router-Dom v5 and v6
       
-      **Additional libraries**: Formik, Yup, Howler.js, React-chartjs-2
+      **Additional libraries**: Formik, Yup, React Hook Form, Howler.js, React-chartjs-2
       
       **Tests**:  Test Driven Development (TDD), Postman, Jest Unit Tests, Storybook, Snapshot, ReduxDev Tools 
       
@@ -118,10 +118,10 @@ content:
         quote: >
           To-do list app with basic functionality
         description: |
-          - Built mobile responsive web app, implemented such features as create/edit/delete to-do lists, tasks and their descriptions, filter tasks by status
-          - Developed Log in page with validation
+          - Built a mobile responsive web app, implemented such features as create/edit/delete to-do lists, tasks and their descriptions, filter tasks by status
+          - Developed Login Page with validation
           - Implemented update of all data on server through Axios requests, errors handling
-          - Covered code with unit test for reducers and storybook tests
+          - Covered the code with unit tests for reducers and storybook tests
           - Added design with MUI theme config changes and components
 
           **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest
@@ -138,10 +138,10 @@ content:
         quote: >
          App lets you track your expenditures and incomes, set financial goals and gradually save money to achieve the targets
         description: | # this will include new lines to allow paragraphs          
-          - Built whole app from scratch, including state structure
-          - Developed reusable components for Expenditures and Incomes pages: input with icons' list with CRUD operations and charts
-          - Optimized rerender of components with help of useRef and useCallback hooks
-          - Developed Savings page with modal window
+          - Built the whole app from scratch, including state structure
+          - Developed reusable components for Expenditures and Incomes Pages: input with icons' list with CRUD operations and charts
+          - Optimized the rerender of components with help of useRef and useCallback hooks
+          - Developed Savings Page with a modal window
           - Implemented saving data in Local Storage
           - Implemented mobile responsive layouts with css flex approach and designed app with MUI
           - Built and packed the app with Docker
@@ -163,13 +163,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Developed such features as: 
           - Developed features with client-server communication: 
-              - Log in page with validation 
-              - Profile page with ability to update data on server
+              - Login Page with validation 
+              - Profile Page with ability to update data on the server
               - Chat service backed by WebSocket connections
-              - User page with ability to follow/unfollow users, search, pagination and filters, implemented client-server communication
+              - User Page with ability to follow/unfollow users, search, pagination and filters, implemented client-server communication
               - Music library with Howler.js framework
-              - News page with pagination and share functionality  
-          - Created mobile responsive layout and designed app with Ant Design framework
+              - News Page with pagination and share functionality  
+          - Created mobile responsive layout and designed the app with Ant Design framework
          
           **Technical stack**: REST API, Axios, TS, React, Redux, React-redux, React-router-dom v5, WebSocket, Antd, Formik, Howler.js, Jest, Uuid
 
@@ -186,11 +186,11 @@ content:
           Online shop with basic functionality
         description: | # this will include new lines to allow paragraphs
           - Developed front-end and back-end parts with REST API communication
-          - Developed Cart page with ability to edit products list and make order 
-          - Created Products page
+          - Developed Cart Page with ability to edit products list and make order 
+          - Created Products Page
           - Implemented back-end errors handling
           - Packed the app with Docker using multi-stage build 
-          - Designed eye-catching and mobile responsive web app
+          - Designed an eye-catching and mobile responsive web app
           
           **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, MUI, Formik, Yup, Express, Node.js, Jest Snapshot, Storybook, ESlint 
 
@@ -204,10 +204,10 @@ content:
             icon: fab fa-github
             url: https://github.com/AnyaGalkina/Pole-tg-bot
         quote: >
-          Bot for pole sportsmen which helps them to choose different levels exercises for training
+          Bot for pole sportsmen which helps them to choose different level exercises for training
         description: | # this will include new lines to allow paragraphs
           - Implemented handling of client messages
-          - Developed logic how-to range exercises by different levels providing their uniqueness during specific period 
+          - Developed logic how to range exercises by different levels providing their uniqueness during specific period 
           - Built and packed the app with Docker
 
           **Technical stack**: Javascript, Telegraf, Node-telegram-bot-api
