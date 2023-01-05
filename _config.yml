@@ -60,11 +60,11 @@ content:
       
       **SPA libraries and frameworks**: React, React Native
       
-      **Store management**: Redux, Redux-toolkit, React-Redux, Redux-Thunks
+      **Store management**: Redux, Redux Toolkit, React-Redux, Redux-Thunks, Redux-Saga
       
       **Client-Server communication**: REST API, Axios, WebSocket, Swagger
       
-      **Styles and Design**: CSS Preprocessors (SASS), CSS modules, Responsive web design, MUI, Ant Design, Figma
+      **Styles and Design**: CSS Preprocessors (SASS), CSS modules, Styled-components, Responsive web design, MUI, Ant Design, Figma
       
       **Routing**: React-Router-Dom v5 and v6
       
@@ -86,7 +86,7 @@ content:
     content:
       - layout: left
         title: Learning Cards
-        sub_title: Teamwork project
+        sub_title: Open source educational teamwork project
         link: https://anyagalkina.github.io/cards/
         link_text: Learning cards Website
         additional_links:
@@ -104,7 +104,7 @@ content:
           - Contributed to web layout and design based on Figma reference
           
                                          
-          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest
+          **Technical stack**: REST API, TS, React, Redux Toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest
 
       - layout: left
         title: To-Do List
@@ -124,7 +124,7 @@ content:
           - Covered the code with unit tests for reducers and storybook tests
           - Added design with MUI theme config changes and components
 
-          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest
+          **Technical stack**: REST API, TS, React, Redux Toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest
 
       - layout: left
         title: Finance Tracker
