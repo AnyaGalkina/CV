@@ -62,7 +62,7 @@ content:
       
       **Store management**: Redux, Redux Toolkit, React-Redux, Redux-Thunks, Redux-Saga
       
-      **Client-Server communication**: REST API, Axios, WebSocket, Swagger
+      **Client-Server communication**: REST API, Axios, WebSocket, Socket.IO, Swagger
       
       **Styles and Design**: CSS Preprocessors (SASS), CSS modules, Styled-components, Responsive web design, MUI, Ant Design, Figma
       
@@ -80,7 +80,24 @@ content:
       
       **Atlassian stack**: Jira, Confluence
 
-  - title: Projects (2021 - Present)
+  - title: Commercial work (2022 - Present)
+#    layout: text
+#    content: |
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title:
+        sub_title: Participated in CRM project development
+        description: | # this will include new lines to allow paragraphs
+          - Created reusable components
+          - Implemented https requests to the server
+          - Implemented mobile responsive layouts
+          - Fixed bugs
+          - Covered code with unit tests
+          
+          **Technical stack**: REST API, TS, React, Redux, Redux-thunk, React-redux, React-router-dom v6, Axios, MUI, Jest
+
+  - title: Projects (2021 - 2022)
 
     layout: list # Type of content section (list/text)
     content:
