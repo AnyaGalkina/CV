@@ -57,27 +57,31 @@ content:
     layout: text
     content: |
       **Programming Languages**: TypeScript, JavaScript (including modern approaches async/await, ES6)
-      
+
       **SPA libraries and frameworks**: React, React Native
-      
+
       **Store management**: Redux, Redux Toolkit, React-Redux, Redux-Thunks, Redux-Saga
-      
+
       **Client-Server communication**: REST API, Axios, WebSocket, Socket.IO, Swagger
       
+      **Back-end basic**: Node.js  (REST API, middleware, input validation, nodemailer, sorting and pagination), MongoDB
+
       **Styles and Design**: CSS Preprocessors (SASS), CSS modules, Styled-components, Responsive web design, MUI, Ant Design, Figma
-      
+
       **Routing**: React-Router-Dom v5 and v6
-      
+
       **Additional libraries**: Formik, Yup, React Hook Form, Howler.js, React-chartjs-2
-      
-      **Tests**:  Test Driven Development (TDD), Postman, Jest Unit Tests, Storybook, Snapshot, ReduxDev Tools 
-      
+
+      **Tests**: Test Driven Development (TDD), Postman, Jest Unit Tests, Storybook, Snapshot, ReduxDev Tools
+
       **Git**: GitLab, GitHub, GitHub Pages
-      
-      **Linters**: ESLint, Prettier
-      
+
       **Containers**: Docker, Docker Compose
       
+      **Bundle builder**: Webpack 5 
+      
+      **Linters**: ESLint, Prettier
+
       **Atlassian stack**: Jira, Confluence
 
   - title: Commercial work (2022 - Present)
@@ -87,14 +91,15 @@ content:
     content:
       - layout: left
         title:
-        sub_title: Participated in CRM project development
+        sub_title: Part time job
         description: | # this will include new lines to allow paragraphs
+          - Participated in CRM project development
           - Created reusable components
           - Implemented https requests to the server
           - Implemented mobile responsive layouts
           - Fixed bugs
           - Covered code with unit tests
-          
+
           **Technical stack**: REST API, TS, React, Redux, Redux-thunk, React-redux, React-router-dom v6, Axios, MUI, Jest
 
   - title: Projects (2021 - 2022)
@@ -203,13 +208,14 @@ content:
           Online shop with basic functionality
         description: | # this will include new lines to allow paragraphs
           - Developed front-end and back-end parts with REST API communication
-          - Developed Cart Page with ability to edit products list and make order 
-          - Created Products Page
+          - Added MongoDB
+          - Developed Cart Page with ability to edit products list and make order, send order to email.
+          - Created Products Page with search bar and sorting by price
           - Implemented back-end errors handling
           - Packed the app with Docker using multi-stage build 
           - Designed an eye-catching and mobile responsive web app
           
-          **Technical stack**: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, MUI, Formik, Yup, Express, Node.js, Jest Snapshot, Storybook, ESlint 
+          **Technical stack**: REST API, TS, React, Redux-toolkit, Node.js, MongoDB, nodemailer React-redux, React-router-dom v6, MUI, Formik, Yup, Express, Node.js, Jest Snapshot, Storybook, ESlint 
 
       - layout: left
         title: Telegram Bot
@@ -233,7 +239,7 @@ content:
   - title: Languages
     layout: text
     content: |
-      **English**: Upper intermediate. I take private classes, constantly honing my language skills
+      **English**: Advanced
             
       **Russian**: Native
 
