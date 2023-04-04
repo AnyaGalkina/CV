@@ -90,33 +90,30 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title:
-        sub_title: Part time job
+        title: Part time job
+#        caption: Jan 2023 - Present
+        sub_title:
         description: | # this will include new lines to allow paragraphs
           - Participated in CRM project development
+          - Developed admin panel, editable list of users and sort feature
           - Created reusable components
           - Implemented https requests to the server
           - Implemented mobile responsive layouts
+          - Covered with code with tests Storybooks and unit tests
           - Fixed bugs
           - Covered code with unit tests
 
-          **Technical stack**: REST API, TS, React, Redux, Redux-thunk, React-redux, React-router-dom v6, Axios, MUI, Jest
+          **Technical stack**: REST API, TS, React, Redux-toolkit, Redux-thunk, React-redux, React-router-dom v6, Axios, MUI, Jest, Storybook
 
-  - title: Projects (2021 - 2022)
-
-    layout: list # Type of content section (list/text)
-    content:
+#    layout: list # Type of content section (list/text)
+#    content:
       - layout: left
-        title: Learning Cards
-        sub_title: Open source educational teamwork project
-        link: https://anyagalkina.github.io/cards/
-        link_text: Learning cards Website
-        additional_links:
-          - title: Github page for project
-            icon: fab fa-github
-            url: https://github.com/anyagalkina/cards
+        title: Internship
+        sub_title: It-Incubator
+#        caption: Oct 2022 - Dec 2022
         quote: >
-            App with the ability to create packs with cards to learn in question/answer format and monitor your study progress
+          Participated in open source educational teamwork project development. Worked on app with the ability to create packs with cards to learn in question/answer format and monitor your study progress
+
         description: | # this will include new lines to allow paragraphs
           - Built registration and password recovery features with validation
           - Developed filters and search logic, including server request optimization to get data (packs and cards) 
@@ -125,8 +122,33 @@ content:
           - Developed logic to show cards from pack in learning mode (smart random with non-recurring cards)
           - Contributed to web layout and design based on Figma reference
           
-                                         
           **Technical stack**: REST API, TS, React, Redux Toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest
+
+  - title: Projects (2021 - 2022)
+
+    layout: list # Type of content section (list/text)
+    content:
+#      - layout: left
+#        title: Learning Cards
+#        sub_title: Open source educational teamwork project
+#        link: https://anyagalkina.github.io/cards/
+#        link_text: Learning cards Website
+#        additional_links:
+#          - title: Github page for project
+#            icon: fab fa-github
+#            url: https://github.com/anyagalkina/cards
+#        quote: >
+#            App with the ability to create packs with cards to learn in question/answer format and monitor your study progress
+#        description: | # this will include new lines to allow paragraphs
+#          - Built registration and password recovery features with validation
+#          - Developed filters and search logic, including server request optimization to get data (packs and cards)
+#          - Wrote utils function for forms validation and server errors handling
+#          - Created header with app menu and Profile page with ability to change avatar image
+#          - Developed logic to show cards from pack in learning mode (smart random with non-recurring cards)
+#          - Contributed to web layout and design based on Figma reference
+#
+#
+#          **Technical stack**: REST API, TS, React, Redux Toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest
 
       - layout: left
         title: To-Do List
@@ -216,6 +238,46 @@ content:
           - Designed an eye-catching and mobile responsive web app
           
           **Technical stack**: REST API, TS, React, Redux-toolkit, Node.js, MongoDB, nodemailer React-redux, React-router-dom v6, MUI, Formik, Yup, Express, Node.js, Jest Snapshot, Storybook, ESlint 
+
+      - layout: left
+        title: Star Wars
+        sub_title: Self-educational project
+        link:
+        link_text: Cakes and sweets shop Website
+        additional_links:
+          - title: Github page for project
+            icon: fab fa-github
+            url:
+        quote: >
+          Mobile responsive App helps to find data about your favorite characters within the Star Wars universe
+        description: | # this will include new lines to allow paragraphs
+          - Developed Characters page with data from server
+          - Added pagination and sorting by page
+          - Created modal window with character details
+          - Created Home Page and Header with routing
+          - Implemented errors handling
+          - Added Storybook tests and unit tests
+          - Implemented mobile responsive design according to Figma
+          
+          **Technical stack**: Technologies used: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, CSS, Jest, Storybook
+
+      - layout: left
+        title: Drag & Drop Calculator
+        sub_title:
+        link: https://anyagalkina.github.io/calculator-constructor
+        link_text: Calculator-constructor Website
+        additional_links:
+          - title: Github page for project
+            icon: fab fa-github
+            url: https://anyagalkina.github.io/calculator-constructor
+        quote: >
+          SPA with constructor and runtime mode. In constructor mode you can drag & drop parts of calculator to canvas in any order. In runtime mode you can use classic calculator
+        description: | # this will include new lines to allow paragraphs
+          - Developed classic calculator functionality
+          - Implemented drag and drop feature
+          - Added styles according to the design from Figma
+          
+          **Technical stack**: TS, React, Redux-toolkit, React-redux, MUI, Jest, Figma, ESlint
 
       - layout: left
         title: Telegram Bot
