@@ -111,6 +111,12 @@ content:
         title: Internship
         sub_title: It-Incubator
 #        caption: Oct 2022 - Dec 2022
+        link: https://anyagalkina.github.io/cards/
+        link_text: Learning cards Website
+        additional_links:
+        - title: Github page for project
+          icon: fab fa-github
+          url: https://github.com/anyagalkina/cards
         quote: >
           Participated in open source educational teamwork project development. Worked on app with the ability to create packs with cards to learn in question/answer format and monitor your study progress
 
