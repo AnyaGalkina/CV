@@ -58,21 +58,21 @@ content:
     content: |
       **Programming Languages**: TypeScript, JavaScript (including modern approaches async/await, ES6)
 
-      **SPA libraries and frameworks**: React, React Native
+      **SPA libraries and frameworks**: React, React Native, Next.js
 
       **Store management**: Redux, Redux Toolkit, React-Redux, Redux-Thunks, Redux-Saga
 
-      **Client-Server communication**: REST API, Axios, WebSocket, Socket.IO, Swagger
+      **Client-Server communication**: REST API, Axios, React Query, WebSocket, Socket.IO, Swagger
       
       **Back-end basic**: Node.js  (REST API, middleware, input validation, nodemailer, sorting and pagination), MongoDB
 
-      **Styles and Design**: CSS Preprocessors (SASS), CSS modules, Styled-components, Responsive web design, MUI, Ant Design, Figma
+      **Styles and Design**: CSS Preprocessors (SASS), CSS modules, Styled-components, Tailwindcss, Responsive web design, MUI, Ant Design, Figma
 
       **Routing**: React-Router-Dom v5 and v6
 
       **Additional libraries**: Formik, Yup, React Hook Form, Howler.js, React-chartjs-2
 
-      **Tests**: Test Driven Development (TDD), Postman, Jest Unit Tests, Storybook, Snapshot, ReduxDev Tools
+      **Tests**: Test Driven Development (TDD), Postman, Jest Unit Tests, Storybook, Cypress, Snapshot, ReduxDev Tools
 
       **Git**: GitLab, GitHub, GitHub Pages
 
@@ -107,6 +107,29 @@ content:
 
 #    layout: list # Type of content section (list/text)
 #    content:
+      - layout: left
+        title: Internship
+        sub_title: It-Incubator
+          #        caption: Oct 2022 - Dec 2022
+        link: https://inctagram-vercel.vercel.app/
+        link_text: Instagram clone Website
+        additional_links:
+          - title: Github page for project
+            icon: fab fa-github
+            url: https://github.com/Armazok/Inctagram
+        quote: >
+#          Participated in open source educational teamwork project development. Worked on app with the ability to create packs with cards to learn in question/answer format and monitor your study progress
+
+        description: | # this will include new lines to allow paragraphs
+          - Built login and password recovery features with validation and captcha
+          - Developed images upload feature including cropping and adding filters to image
+          - Developed reusable components such as Modal, Textarea, Avatar
+          - Covered code with tests: end-to-end tests with Cypress, Storybook tests
+          - Contributed to web layout and design based on Figma reference
+            
+          **Technical stack**: REST API, TS, Next.js, React Query, Axios, Tailwindcss, React-hook-forms, Yup, Storybook, React-avatar-editor, Figma, Jira
+
+
       - layout: left
         title: Internship
         sub_title: It-Incubator
@@ -263,9 +286,10 @@ content:
           - Created Home Page and Header with routing
           - Implemented errors handling
           - Added Storybook tests and unit tests
+          - Add end-to-end tests with Cypress
           - Implemented mobile responsive design according to Figma
           
-          **Technical stack**: Technologies used: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, CSS, Jest, Storybook
+          **Technical stack**: Technologies used: REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, CSS, Jest, Storybook, Cypress
 
       - layout: left
         title: Drag & Drop Calculator
