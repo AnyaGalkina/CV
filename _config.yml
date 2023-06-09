@@ -90,7 +90,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Full time job
+        title: Front-End Developer
         sub_title: It-Incubator
         link: https://it-incubator.io/
 
