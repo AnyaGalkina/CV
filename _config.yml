@@ -90,20 +90,27 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Part time job
-#        caption: Jan 2023 - Present
-        sub_title:
-        description: | # this will include new lines to allow paragraphs
-          - Participated in CRM project development
-          - Developed admin panel, editable list of users and sort feature
-          - Created reusable components
-          - Implemented https requests to the server
-          - Implemented mobile responsive layouts
-          - Covered with code with tests Storybooks and unit tests
-          - Fixed bugs
-          - Covered code with unit tests
+        title: Full time job
+        sub_title: It-Incubator
+        link: https://it-incubator.io/
 
-          **Technical stack**: REST API, TS, React, Redux-toolkit, Redux-thunk, React-redux, React-router-dom v6, Axios, MUI, Jest, Storybook
+        #        caption: Jan 2023 - Present
+        description: | # this will include new lines to allow paragraphs
+          - Created reusable components with React such as modal window, textarea, avatar, etc.
+          - Implemented https requests to the server
+          - Built login, registration and password recovery features with JWT, validation and reCaptcha
+          - Implemented saving and getting data using Local Storage and Indexed DB.
+          - Developed filters and search logic, including server request optimization to get data
+          - Developed payments implementation on web site
+          - Implemented errors handling
+          - Covered code with unit tests, Storybooks tests and E2E tests with Cypress
+          - Bugfix, refactoring and optimization
+          - Contributed to web layout and design based on Figma reference
+          - Implemented mobile responsive layouts
+          - Built and packed the app with Docker
+          
+          **Technical stack:** REST API, TS, React, Redux-Toolkit, React-redux, React-router-dom v6, Axios, Material UI, Formik, Next.js, React Query, Tailwindcss, SCSS, React-hook-forms, Yup, Cypress, Storybook, React-avatar-editor, Figma, Jira,  Jest
+          
 
 #    layout: list # Type of content section (list/text)
 #    content:
